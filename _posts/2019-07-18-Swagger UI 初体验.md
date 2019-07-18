@@ -35,7 +35,6 @@ Swagger UI 是目前最流行的 RestFul 接口 API 文档和测试工具，可�
 
 ### 编写配置文件
 ```
-package com.example.testredisreactive;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -122,7 +121,6 @@ public class SwaggerConfig {
 具体如下：
 
 ```
-package com.example.testredisreactive;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -173,7 +171,6 @@ public class TestController {
 ```
 数据模型示例
 ```
-package com.example.testredisreactive;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
