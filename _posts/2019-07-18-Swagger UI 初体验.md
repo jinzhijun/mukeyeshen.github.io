@@ -4,7 +4,7 @@ title:      Swagger UI 初体验
 subtitle:   Swagger UI
 date:       2019-07-18
 author:     chenyeshen
-header-img: img/post-bg-cook.jpg
+header-img: img/bg1.jpg
 catalog: true
 tags:
     - Java
