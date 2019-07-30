@@ -1,15 +1,14 @@
 ---
 layout:     post
 title:      springcloudAlibaba初步探索
-subtitle:   nacos的学习
+subtitle:   nacos服务
 date:       2019-07-29
 author:     chenyeshen
 header-img: img/bg11.jpg
 catalog: true
 tags:
-    - springcloud
-    - springcloudAlibaba
-    - nacos
+    - SpringCloudAlibaba
+    - Nacos
 ---
 
 # 什么是nacos
