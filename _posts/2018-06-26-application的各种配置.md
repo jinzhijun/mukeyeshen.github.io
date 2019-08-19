@@ -2,9 +2,9 @@
 layout:     post
 title:      application的各种配置
 subtitle:   个人代码
-date:       2018-01-26
+date:       2018-06-26
 author:     chenyeshen
-header-img: img/bg5.jpg
+header-img: img/bg25.jpg
 catalog: true
 tags:
     - Java
