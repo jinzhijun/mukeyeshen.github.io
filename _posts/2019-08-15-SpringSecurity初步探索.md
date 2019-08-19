@@ -11,7 +11,7 @@ catalog: true
 tags:
     - Java
     - Springboot
-    - SpringCecurity
+    - SpringSecurity
 ---
 
 # springsecurity自定义登录界面
