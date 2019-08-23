@@ -2,9 +2,9 @@
 layout:     post
 title:      navicat 连接 mysql 出现Client does not support authentication protocol requested by server解决方案
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-04-19
 author:     chenyeshen
-header-img: img/bg23.jpg
+header-img: img/img23.jpg
 catalog: true
 tags:
     - 数据库
