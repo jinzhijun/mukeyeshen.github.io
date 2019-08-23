@@ -2,9 +2,9 @@
 layout:     post
 title:      SpringBoot+Quartz实现动态配置定时任务
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-08-22
 author:     chenyeshen
-header-img: img/bg16.jpg
+header-img: img/img30.jpg
 catalog: true
 tags:
     - Springboot
