@@ -2,7 +2,7 @@
 layout:     post
 title:      Dubbo整合SpringBoot
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-08-28
 author:     chenyeshen
 header-img: img/img2.jpg
 catalog: true
