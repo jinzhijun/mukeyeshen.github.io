@@ -2,7 +2,7 @@
 layout:     post
 title:      SpringBoot整合RabbitMQ
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-08-27
 author:     chenyeshen
 header-img: img/img16.jpg
 catalog: true
