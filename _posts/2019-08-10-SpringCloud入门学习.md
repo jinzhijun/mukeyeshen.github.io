@@ -2,9 +2,9 @@
 layout:     post
 title:      SpringCloud入门学习
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-08-10
 author:     chenyeshen
-header-img: img/bg20.jpg
+header-img: img/img20.jpg
 catalog: true
 tags:
     - SpringCloud
