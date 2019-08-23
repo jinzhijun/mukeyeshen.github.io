@@ -2,9 +2,9 @@
 layout:     post
 title:      thymeleaf 基本语法
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-03-19
 author:     chenyeshen
-header-img: img/bg24.jpg
+header-img: img/img24.jpg
 catalog: true
 tags:
     - 模板引擎
