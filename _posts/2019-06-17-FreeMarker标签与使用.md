@@ -2,9 +2,9 @@
 layout:     post
 title:      FreeMarker标签与使用
 subtitle:   学习笔记
-date:       2019-08-19
+date:       2019-06-17
 author:     chenyeshen
-header-img: img/bg17.jpg
+header-img: img/img17.jpg
 catalog: true
 tags:
     - 模板引擎
