@@ -249,3 +249,116 @@ spring.rabbitmq.port=5672
 spring.rabbitmq.username=guest
 spring.rabbitmq.password=guest
 ```
+### 最新配置
+
+```
+# log
+logging.level.com.yeshen.xdvideo.mapper=debug
+
+
+# Server settings
+server:
+    port: 8080
+    # HTTP请求和响应头的最大量，以字节为单位，默认值为4096字节,超过此长度的部分不予处理,一般8K。解决java.io.EOFException: null问题
+    max-http-header-size: 8192
+    use-forward-headers: true
+    compression:
+        enabled: true
+        min-response-size: 1024
+        mime-types: text/plain,text/css,text/xml,text/javascript,application/json,application/javascript,application/xml,application/xml+rss,application/x-javascript,application/x-httpd-php,image/jpeg,image/gif,image/png
+    tomcat:
+        remote-ip-header: X-Forwarded-for
+        protocol-header: X-Forwarded-Proto
+        port-header: X-Forwarded-Port
+        uri-encoding: UTF-8
+        basedir: /var/tmp/website-app
+
+################################### 数据源配置 ###################################
+# SPRING PROFILES
+spring:
+    datasource:
+        type: com.alibaba.druid.pool.DruidDataSource
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/xdvideo?useUnicode=true&characterEncoding=utf-8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&useSSL=false
+        username: root
+        password: root
+    application:
+        name: xdvideo
+    # HTTP ENCODING
+    http:
+        multipart:
+            max-file-size: 2MB
+            max-request-size: 10MB
+        encoding:
+            enabled: true
+            charset: UTF-8
+            force: true
+    messages:
+        encoding: UTF-8
+    jmx:
+        enabled: true
+        default-domain: agentservice
+    resources:
+        chain:
+            strategy:
+                content:
+                    enabled: true
+                    paths: /**
+    # redis缓存服务配置
+    session:
+        store-type: redis
+    # Redis数据库索引（默认为0）
+#    redis:
+#        database: 1
+#        # Redis服务器地址
+#        host: 127.0.0.1
+#        # Redis服务器连接端口
+#        port: 6379
+#        # Redis服务器连接密码（默认为空）
+#        password: 123456
+#        # 连接池最大连接数（使用负值表示没有限制）
+#        pool:
+#            maxActive: 8
+#            # 连接池最大阻塞等待时间（使用负值表示没有限制）
+#            maxWait: -1
+#            # 连接池中的最大空闲连接
+#            maxIdle: 8
+#            # 连接池中的最小空闲连接
+#            minIdle: 0
+#        # 连接超时时间（毫秒）
+#        timeout: 0
+#        # 默认的数据过期时间，主要用于shiro权限管理
+#        expire: 2592000
+
+# MyBatis
+mybatis:
+
+  configuration:
+    map-underscore-to-camel-case: true
+    cache-enabled: true
+#    type-aliases-package: com.yeshen.xdvideo.domain
+#    mapper-locations: classpath:/mapper/*.xml
+
+# pagehelper
+pagehelper:
+    helper-dialect: mysql
+    reasonable: true
+    support-methods-arguments: true
+    params: count=countSql
+
+################################### 程序自定义配置 ###################################
+yeshen:
+    druid:
+        # druid访问用户名（默认：zyd-druid）
+        username: zyd-druid
+        # druid访问密码（默认：zyd-druid）
+        password: zyd-druid
+        # druid访问地址（默认：/druid/*）
+        servletPath: /druid/*
+        # 启用重置功能（默认false）
+        resetEnable: false
+        # 白名单(非必填)， list
+        allowIps[0]:
+        # 黑名单(非必填)， list
+        denyIps[0]:
+```
