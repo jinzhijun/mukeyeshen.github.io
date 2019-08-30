@@ -14,7 +14,31 @@ tags:
 
 ### **什么是跨域呢？**
 
-> 简单地理解就是因为javascript同源策略的限制，a.com域名下的js无法操作b.com或是c.a.com域名下的对象。
+> 我们先回顾一下域名地址的组成：
+>
+> http:// www . google : 8080 / script/jquery.js
+>
+> 　　http:// （协议号）
+>
+> 　　www  （子域名）
+>
+> 　　google （主域名）
+>
+> 　　 8080 （端口号）
+>
+> 　　script/jquery.js （请求的地址）
+>
+> \* 当协议、子域名、主域名、端口号中任意一各不相同时，都算不同的“域”。
+>
+> \* 不同的域之间相互请求资源，就叫“跨域”。
+
+
+
+![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190830222012704.png)
+
+![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190830222135472.png)
+
+
 
 ### **跨域处理，三种方法：**
 
