@@ -7,189 +7,132 @@ author:     chenyeshen
 header-img: img/img29.jpg
 catalog: true
 tags:
-    - 插件
-    - IntelliJ IDEA
-    - idea
+    - idea插件
+    
 ---
 
 
 
-Statistic	代码统计
-CheckStyle	代码格式检查(可以自己/公司脚本)
-FindBugs	bugs插件
-SonarLint	bugs插件
-grep Console	控制台插件
-.ignore	git 文件提交过滤
-CodeGlance	右侧文档结构图
-Background Image Plus	设置背景图片: view -> Set Backgroup Image
-Key promoter	快捷键提示，将鼠标放上去的时候会有提示
-Markdown support	编辑Markdown文件 .md 文件
-Maven Helper	maven插件，打开该pom文件的Dependency Analyzer视图
-GsonFormat	将json转换为object
-JRebel for IntelliJ	是一款热部署插件
-AceJump	代替鼠标的软件，按快捷键进入 AceJump 模式后（默认是 Ctrl+J）
-javaDoc	注释插件
-Free MyBatis plugin                 Mybatis插件
+#### **Mybatis Log Plugin**
 
+#### **RestfulToolkit**
 
-## 二、IDEA插件安装
+#### Gsonformat
 
-IDEA的插件安装非常简单，对于很多插件来说，只要你知道插件的名字就可以在IDEA里面直接安装。 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202512673.png)
+#### codehelper.generator
 
-```
-Preferences—>Plugins—>查找所需插件—>Install
-```
+#### GenerateAllSetter
 
-或者
+#### **Grep Console**
 
-```
-Preferences—>Plugins—>Install plug from disk —>选择下载好的插件安装
-```
+#### **CodeGlance **
 
-安装之后重启IDEA即可生效
+#### **IDEA Restart**
 
-## 三、插件介绍
+#### **Maven Helper**
 
-#### 1、[activate-power-mode](https://github.com/ViceFantasyPlace/activate-power-mode)
+#### **JRebel**
 
-最先介绍的就是这个装B插件了，美术和策划妹子来围观的时候发挥出最大作用了。 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202513253.png)
+#### **SonarLint**
 
-#### 2、IdeaVim
+SonarLint是一款强大快速的能帮助开发者发现代码里的bug或是代码质量优化点的扩展工具。支持很多主流的语言：JAVA、js、PHP、Python。也支持主流的IDE们，idea、Eclipse、vs等。在idea里更是以插件的形式让人无缝接入 
 
-我所有写代码的编辑器，都要安装VIM插件，我觉得这是一种VIM的精神， 
-IdeaVim是一个Vim仿真插件，用于基于IntelliJ平台上的IDE。使用IDE的插件管理器来安装这款插件的最新版本。正常启动IDE，使用“Tools | Vim Emulator”菜单项来启动Vim仿真。这时，你在所有的编辑器上都必须使用Vim键盘输入。
+可在线安装，也可离线安装，插件下载地址：https://www.sonarlint.org/
 
-如果你想要禁用此插件，那么选择“Tools | Vim Emulator”菜单不被选中。此时IDE会使用常规的键盘快捷键。 Vim仿真与IDE之间的键盘快捷键冲突，可以通过 “File | Settings | Vim Emulation”，“File | Settings | Keymap” 以及在 ~/.ideavimrc 文件中的键映射命令解决。
+#### Lombok
 
-#### 3、 [CodeGlance](https://plugins.jetbrains.com/plugin/7275-codeglance)
+#### Alibaba Java Coding Guidelines
 
-类似SublimeText的Mini Map插件 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202511967.png)
+#### CodeMaker   
 
-### 4、Background Image Plus
+开发过程中，经常手工编写重复代码。现在，可以通过 CodeMaker 来定义 Velocity 模版来支持自定义代码模板来生成代码。目前，CodeMaker 自带两个模板。Model：根据当前类生成一个与其拥有类似属性的类，用于自动生成持久类对应的领域类。Converter：该模板需要两个类作为输入的上下文，用于自动生成领域类与持久类的转化类。详细使用文档，参考：https://github.com/x-hansong/CodeMaker
 
-这又是一款装备B插件了，想想别人看到你的IDE有个美女或者异次元背景是怎样的，安装之后，在打开View选项，就可以看到Set Background Image选项了。 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202531234.png)
+#### REST client
 
-#### 5、Shifter
+在日常开发过程中，我们或多或少都涉及到 API 接口的测试。例如，有的小伙伴使用 Chrome 的 Postman 插件，或者使用火狐的 restclient 等工具。事实上，这些工具是测试 API 接口非常有效的方式之一，笔者之前也一直使用 Postman 完成 API 接口的测试工作。今天，笔者推荐另外一个非常好用的小工具，能够帮助读者快速测试 API 接口。这个工具就是 IDEA 的 Editor REST Client。IDEA 的 Editor REST Client 在 IntelliJ IDEA 2017.3 版本就开始支持，在 2018.1 版本添加了很多的特性。事实上，它是 IntelliJ IDEA 的 HTTP Client 插件。详细使用文档，参考：http://blog.720ui.com/2018/restclient_use/
 
-检测光标所在选中、行或关键字的类型，然后用键盘快捷键上的“up”或“down”键移动它。如果在一行中只有一个可移动的单词，那么它不需要碰触光标，我们就可以移动它。支持小写/大写或小写所移动单词中的第一个大写的字符。
 
-默认键盘快捷键：
 
-```
-Ctrl + Shift + Alt+逗号：下移
-Ctrl + Shift + Alt +句号：上移
-Ctrl + Shift + Alt + K：上移更多
-Ctrl + Shift + Alt + J：下移更多
+#### Kubernetes   K8s工具
 
-```
+参考 https://plugins.jetbrains.com/plugin/10485-kubernetes 支持编辑 Kubernetes 资源文件，如下： 可以比较方便的查看yaml中的各项 placeholder 的默认值，且可以方便的链接到value位置。
 
-移动更多：多次重复选择所选中的值。重复次数可在插件配置中进行配置（默认为10）。
 
-#### 6、BrowseWordAtCaret
 
-允许轻松地在光标处浏览下一个/前一个单词，并突出选中单词的其他表象。用法：用CTRL-ALT-UP、CTRL-ALT-DOWN浏览（注：在默认键映射中此快捷方式也可用于下一个/上一个事件）。
+#### Free Mybatis plugin
 
-#### 7、 AceJump
+#### UnitGenerator   单元测试测试生成工具
 
-AceJump其实是一款能够代替鼠标的软件，只要安装了这款插件，可以在代码中跳转到任意位置。按快捷键进入 AceJump 模式后（默认是 Ctrl+J），再按任一个字符，插件就会在屏幕中这个字符的所有出现位置都打上标签，你只要再按一下标签的字符，就能把光标移到该位置上。换言之，你要移动光标时，眼睛一直看着目标位置就行了，根本不用管光标的当前位置。
+单元测试是必不可少的！我们可以使用 JUnitGenerator 插件来自动创建了单元测试。我们可以使用提供的 velocity 模板定制单元测试输出代码。如果在已经存在单元测试的地方创建了单元测试，则会提示用户进行覆盖或合并操作。合并操作允许用户有选择地创建目标文件内容。详细使用文档，参考：https://plugins.jetbrains.com/plugin/3064-junitgenerator-v2-0
 
-#### 8. Markdown support
 
-安装这个插件之后，打开.md文件就可以通过一个支持md的视图查看和编辑内容。一般用于写README.md文件。 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202510369.png)
 
-#### 9、Key promoter
+#### 字符串工具：String Manipulation
 
-Key promoter这款插件适合新手使用。当你点击鼠标一个功能的时候，可以提示你这个功能快捷键是什么。这是一个非常有用的功能，很快就可以熟悉软件的快捷功能了。 
-如果有快捷键的，会直接显示快捷键 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202512312.png) 
-没有快捷键的，会提示你去设置快捷键。比如我连续3次用鼠标创建TypeScript类，第三次就会出现下面的提示 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202509788.png) 
-选择是，自动弹到快捷键设置面板 
-![这里写图片描述](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906202511450.png)
 
-#### **10、Free Mybatis plugin**
 
-一个蛮好用的mybatis插件,可以通过dao层的接口直接和mapper.xml标签id进行映射,点击下图左边的前头就可以跳转到对应的接口或是xml.
+#### POJO to JSON     领域对象转JSON工具
 
-这种方式只对生成代理接口有效,对于通过session.select()的全路径的实现类是无效的
+为了测试需要，我们需要将简单 Java 领域对象转成 JSON 字符串方便用 postman 或者 curl 模拟数据。详细使用文档，参考：https://plugins.jetbrains.com/plugin/9686-pojo-to-json
 
-![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906203032436.png)
 
-![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906203030806.png)
 
-####   **11、GenerateSerialVersionUID**
+#### Redis可视化：Iedis
 
-**        **生成SerialVersionUID的一款插件,idea没有自动生成SerialVersionUID功能,但是这款功能可以,直接alt+insert就出来了
+参考：https://plugins.jetbrains.com/plugin/9228-iedis 使用参考：https://codesmagic.com/iedis/userguide/getting-started 可方便的执行增删查改及使用命令行进行操作。
 
-**        ![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906203032937.png)**
 
-#### **12、Lombok plugin**
 
-** **      只要加上@date不需要为实体类写get,set
+**Stackoverflow **
 
-**![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906203030399.png)**
+这个插件其实是最实用的插件，程序猿遇到的问题，基本都能找到回答，但是它使用的是google搜索引擎，对于，不购买vpn的同学来说，感觉好鸡肋呀~
 
-#### **13、Maven Helper**
+选中需要搜索的问题，然后，右键点击
 
-**        **idea自带的maven插件是蛮好用的各方面都很齐全,但是有些的时候jar冲突的依赖却难找,show dependenies打开的图解找依赖太不直观了,而且非常非常卡.这一点eclipse的maven找依赖就很简单,这款插件和eclipse那个一样,特别直观方便,找冲突的利器啊,炒鸡好用O(∩_∩)O
 
-**    ![img](https://chenyeshen.oss-cn-shenzhen.aliyuncs.com/oneblog/article/20190906203031512.png)**
 
+#### **FindBugs**
 
+Idea自带的检查工具已经很强大，如有需要也可以加上Alibaba Java Coding Guidelines的代码检查工具，但是，说白这些工具其实更多的是规范性检查，如果需要更深入的去检查异常，可以使用此插件~
 
-#### 14、Alibaba Java Coding Guidelines
+右键点击文件，包或者工程
 
-经过247天的持续研发，阿里巴巴于10月14日在杭州云栖大会上，正式发布众所期待的《阿里巴巴Java开发规约》扫描插件！该插件由阿里巴巴P3C项目组研发。P3C是世界知名的反潜机，专门对付水下潜水艇，寓意是扫描出所有潜在的代码隐患。
+**IdeaJad**
 
-为了让开发者更加方便、快速将规范推动并实行起来，阿里巴巴基于手册内容，研发了一套自动化的IDE检测插件（IDEA、Eclipse）。该插件在扫描代码后，将不符合规约的代码按Blocker/Critical/Major三个等级显示在下方，甚至在IDEA上，我们还基于Inspection机制提供了实时检测功能，编写代码的同时也能快速发现问题所在。对于历史代码，部分规则实现了批量一键修复的功能，如此爽心悦目的功能是不是很值得拥有？提升代码质量，提高团队研发效能，插件将会一路同行。 
+以前查看class文件形式的时候或者jar，都会使用一个外部反编译工具，这样操作明显不方便，使用此插件可以一直在idea中查看文件~  ps：其实Inteli Idea这个编译器已经自带了反编译功能，老夫~~~~~~
 
-![6630c2d7402f9b174d4ec090835ec8bf226.jpg](https://oscimg.oschina.net/oscnet/6630c2d7402f9b174d4ec090835ec8bf226.jpg)
+选择class文件，右键 Decompile,完成反编译
 
-#### 15、iBATIS/MyBatis plugin
 
-轻松通过快捷键找到MyBatis中对应的Mapper和XML，CTRL+ALT+B 
-![这里写图片描述](https://img-blog.csdn.net/20180104135030822?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGxnZW4xNTczODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast) 
-![这里写图片描述](https://img-blog.csdn.net/20180104135040257?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGxnZW4xNTczODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-###### 
+**Free-idea-mybatis**
 
-#### 16、CodeGlance
+mybatis xml和对应的mapper之间来回切换的时候，有时候不同人开发，放置的位置又不同，使用此插件后，来回切换的时候异常方便，和所放置的位置无关~
 
-###### 类似SublimeText的Mini Map插件，看下图就知道什么用了： ![è¿éåå¾çæè¿°](https://img-blog.csdn.net/20180104135422440?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQveGxnZW4xNTczODc=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
-#### 17、codehelper.generator
 
-###### 可以让你在创建一个对象并赋值的时候，快速的生成代码，不需要一个一个属性的向里面set,根据new关键字，自动生成掉用set方法的代码，还可以一键填入默认值。GenAllSetter 特性在Java方法中, 根据 `new` 关键词, 为Java Bean 生成所有Setter方法。按GenAllSetter键两次, 会为Setter方法生成默认值。可在`Intellij Idea`中为`GenAllSetter`设置快捷键。如何使用:将光标移动到 `new` 语句的下一行。点击主菜单Tools-> Codehelper-> GenAllSetter, 或者按下`GenAllSetter`快捷键。GenDaoCode 特性根据Pojo 文件一键生成 Dao，Service，Xml，Sql文件。Pojo文件更新后一键更新对应的Sql和mybatis xml文件。提供insert，insertList，update，select，delete五种方法。能够批量生成多个Pojo的对应的文件。自动将pojo的注释添加到对应的Sql文件的注释中。 丰富的配置，如果没有配置文件，则会使用默认配置。可以在Intellij Idea中快捷键配置中配置快捷键。目前支持MySQL + Java，后续会支持更多的DB。如果喜欢我们的插件，非常感谢您的分享。GenDaoCode 使用方法主菜单Tools-> Codehelper-> GenDaoCode 按键便可生成代码。方法一：点击GenDaoCode，然后根据提示框输入Pojo名字，多个Pojo以 | 分隔。Codehelper Generator会根据默认配置为您生成代码。方法二：在工程目录下添加文件名为codehelper.properties的文件。点击GenDaoCode，Codehelper Generator会根据您的配置文件为您生成代码![Screenshot #16302](http://plugins.jetbrains.com/files/8640/screenshot_16302.png)![Screenshot #16302](http://plugins.jetbrains.com/files/8640/screenshot_16302.png)
+**MyBatisCodeHelperPro**
 
-#### 18、 Material Theme UI
+这个是一款比较实用的插件。但是，现在需要收费啦，貌似是需要花费29块钱，送两个激活码。不过，也可以申请7天的免费测试码，体验一下在购买也可以的。收费掩盖不了她的魅力所在，这也是行业发展的趋势。具体功能如下（总有一款适合你~）：
 
-###### 这是一款主题插件，可以让你的ide的图标变漂亮，配色搭配的很到位，还可以切换不同的颜色，甚至可以自定义颜色。默认的配色就很漂亮了，如果需要修改配色，可以在工具栏中Tools->Material Theme然后修改配色等。
+- 提供Mapper接口与配置文件中对应SQL的导航.
+- 编辑XML文件时自动补全.
+- 根据Mapper接口, 使用快捷键生成xml文件及SQL标签.
+- ResultMap中的property支持自动补全，支持级联(属性A.属性B.属性C).
+- 快捷键生成@Param注解.
+- XML中编辑SQL时, 括号自动补全.
+- XML中编辑SQL时, 支持参数自动补全(基于@Param注解识别参数).
+- 自动检查Mapper XML文件中ID冲突.
+- 自动检查Mapper XML文件中错误的属性值.
+- 支持Find Usage.
+- 支持重构从命名.
+- 支持别名.
+- 自动生成ResultMap属性.
+- 快捷键: Option + Enter(Mac) | Alt + Enter(Windows).
 
-#### 19、 Background image Plus
 
-###### 这是一款可以设置idea背景图片的插件，不但可以设置固体的图片，还可以设置一段时间后随机变化背景图片，以及设置图片的透明度等等。
 
-#### 20.、 active-power-mode
+**VisualVM Launcher**
 
-###### 这是一款让你在编码的时候，整个屏幕都为之颤抖的插件。
+一般可用于在本地开发进行压力测试，性能测试之类的监控器，其他场景一般不推荐使用此模式启动，还会启动另外一个Visual vm窗口，这个窗口是JDK bin目录下的JvisualVM 
 
-###### ![img](https://static.oschina.net/uploads/img/201807/17102846_aBZJ.gif)![772743-20180411232130374-2087271550.gif](https://images2018.cnblogs.com/blog/772743/201804/772743-20180411232130374-2087271550.gif)
-
-#### 21、Nyan progress bar
-
-###### 这是一个将你idea中的所有的进度条都变成萌新动画的小插件。
-
-###### ![img](https://static.oschina.net/uploads/img/201807/17102847_cL52.png)![772743-20180411233141721-621184731.png](https://images2018.cnblogs.com/blog/772743/201804/772743-20180411233141721-621184731.png)
-
-#### 22、.ignore
-
-###### git提交时过滤掉不需要提交的文件，很方便，有些本地文件是不需要提交到Git上的。
-
-#### 23、CamelCase
-
-###### 将不是驼峰格式的名称，快速转成驼峰格式，安装好后，选中要修改的名称，按快捷键shift+alt+u。
